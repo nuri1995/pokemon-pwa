@@ -1,0 +1,32 @@
+<div class="container my-5">
+  <div
+    *ngIf="pokemon"
+    class="row animate__animated animate__bounce animate__fadeIn"
+  >
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title text-uppercase">{{ pokemon.name }}</h5>
+      </div>
+      <img
+        class="card-img-top"
+        src="{{ pokemon.image_url }}"
+        alt="Card image cap"
+      />
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <p><strong>Identifier: </strong>{{ pokemon.id }}</p>
+        </li>
+        <li class="list-group-item">
+          <p><strong>Height: </strong>{{ pokemon.height }}</p>
+        </li>
+        <li class="list-group-item">
+          <p><strong>Weight: </strong>{{ pokemon.weight }}</p>
+        </li>
+      </ul>
+      <div class="card-body">
+        <a class="btn btn-danger" routerLink="/">Back</a>
+      </div>
+    </div>
+  </div>
+</div>

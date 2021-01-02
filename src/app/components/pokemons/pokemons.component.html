@@ -1,0 +1,12 @@
+<div class="container pt-3">
+  <h1>Pokemons</h1>
+  <ul class="list-group">
+    <a
+      *ngFor="let pokemon of pokemons"
+      [routerLink]="['/pokemon', pokemon.name]"
+      class="list-group-item list-group-item-action text-uppercase animate__animated animate__bounce animate__fadeIn"
+    >
+      {{ pokemon.name }}
+    </a>
+  </ul>
+</div>
