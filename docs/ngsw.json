@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1609865102909,
+  "timestamp": 1609870419796,
   "index": "/pokemon-pwa/index.html",
   "assetGroups": [
     {
@@ -49,20 +49,6 @@
       "name": "pokemons-api",
       "patterns": [
         "https:\\/\\/pokeapi\\.co\\/api\\/v2\\/.*"
-      ],
-      "strategy": "freshness",
-      "maxSize": 10,
-      "maxAge": 3600000,
-      "timeoutMs": 1000,
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "version": 1
-    },
-    {
-      "name": "pokemons-images",
-      "patterns": [
-        "https:\\/\\/raw\\.githubusercontent\\.com\\/PokeAPI\\/sprites\\/master\\/sprites\\/pokemon\\/other\\/dream-world\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 10,

@@ -40,18 +40,6 @@
         "timeout": "1s",
         "strategy": "freshness"
       }
-    },
-    {
-      "name": "pokemons-images",
-      "urls": [
-        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/**"
-      ],
-      "cacheConfig": {
-        "maxSize": 10,
-        "maxAge": "1h",
-        "timeout": "1s",
-        "strategy": "freshness"
-      }
     }
   ]
 }
