@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1609861876151,
+  "timestamp": 1609629958827,
   "index": "/pokemon-pwa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/pokemon-pwa/favicon.ico",
         "/pokemon-pwa/index.html",
-        "/pokemon-pwa/main.56da33eac42d578218e0.js",
+        "/pokemon-pwa/main.160e17bb4bafec339e7a.js",
         "/pokemon-pwa/manifest.webmanifest",
         "/pokemon-pwa/polyfills.35a5ca1855eb057f016a.js",
         "/pokemon-pwa/runtime.acf0dec4155e77772545.js",
@@ -85,8 +85,8 @@
     "/pokemon-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/pokemon-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/pokemon-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/pokemon-pwa/index.html": "59eef191b5af42a2dec54e344180682ce2024b55",
-    "/pokemon-pwa/main.56da33eac42d578218e0.js": "071263ef760f2c354a39f66f750fb188b81fd448",
+    "/pokemon-pwa/index.html": "664d03efdab972d5517784ccc2cbd0911bcf1757",
+    "/pokemon-pwa/main.160e17bb4bafec339e7a.js": "da4a66f19b1e0969422fb8195905a4a5c74adbc8",
     "/pokemon-pwa/manifest.webmanifest": "00c5bfb733efff8c35609abc8409cb9228cbc1d4",
     "/pokemon-pwa/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/pokemon-pwa/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
