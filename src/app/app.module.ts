@@ -11,7 +11,7 @@ import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent, PokemonsComponent, PokemonComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
+  imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule, HttpClientModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
   providers: [],
   bootstrap: [AppComponent],
 })
